@@ -14,3 +14,12 @@ expression recognition (7 classes, 15k images).
 - WeightedRandomSampler for class imbalance (58:1 ratio)
 - OneCycleLR scheduler, Label Smoothing, AdamW
 - Ablation studies: Dropout, BatchNorm, augmentation configs, LR warmup
+
+## Dataset
+
+The datasets are not included in this repository.
+
+- **Skin Moles** - [Vai de Pielea Mea Kaggle Competition](https://www.kaggle.com/competitions/vai-de-pielea-mea)
+- **Face Expressions** - [You're on Candid Camera Kaggle Competition](https://www.kaggle.com/competitions/youre-on-candid-camera)
+
+To run the notebook, download the datasets from Kaggle and update `ROOT_DIR` in the Setup cell to point to your local data folder.
